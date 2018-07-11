@@ -134,8 +134,7 @@ html, body, header,
 	}
 	.timeline ul li time {
 	  font-family: 'Playfair Display', serif;
-	}
-	 
+	}	 
 	.timeline ul li::after {
 	  content: '';
 	  position: absolute;
@@ -154,8 +153,7 @@ html, body, header,
 	  padding: 5px;
 	  background: #ffffff;
 	  border-radius: 10px;
-	}
-	 
+	}	 
 	.timeline ul li div::before {
 	  content: '';
 	  position: absolute;
@@ -166,8 +164,7 @@ html, body, header,
 	}
 	.timeline ul li:nth-child(odd) div {
 	  left: 45px;
-	}
-	 
+	}	 
 	.timeline ul li:nth-child(odd) div::before {
 	  left: -15px;
 	  border-width: 8px 16px 8px 0;
@@ -175,8 +172,7 @@ html, body, header,
 	}
 	.timeline ul li:nth-child(even) div {
 	  left: -240px;
-	}
-	 
+	}	 
 	.timeline ul li:nth-child(even) div::before {
 	  right: -15px;
 	  border-width: 8px 0 8px 16px;
