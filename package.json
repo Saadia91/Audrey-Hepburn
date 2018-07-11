@@ -1,0 +1,29 @@
+{
+  "name": "audrey-hepburn",
+  "version": "1.0.0",
+  "description": "Audrey Hepburn tribute page. First project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saadia91/audrey-hepburn.git"
+  },
+  "keywords": [
+    "audrey",
+    "hepburn",
+    "tribute",
+    "classic",
+    "hollywood"
+  ],
+  "author": "SAMYii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saadia91/audrey-hepburn/issues"
+  },
+  "homepage": "https://github.com/Saadia91/audrey-hepburn#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
