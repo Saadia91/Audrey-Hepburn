@@ -27,7 +27,7 @@ body, html {
 }
 /*Nave end*/
 
-.title {
+#title {
 	font-family: 'Tangerine', cursive;
   	font-size: 90px;
   	font-weight: lighter;
@@ -185,5 +185,12 @@ html, body, header,
 		.timeline ul li:nth-child(even) div {
 		  left: -140px;
 		}
+	}
+	#img-div {
+		text-align: center;
+		margin-top: 100px;
+	}
+	#image {
+		text-align: center;
 	}
 /*----------Timeline END----------*/

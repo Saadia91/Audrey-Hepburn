@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="full-height">
 	<head>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Baloo|Libre+Baskerville|Open+Sans+Condensed:300|PT+Sans|Playfair+Display|Tangerine" rel="stylesheet">
        <!-- Jarallax -->
       <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
@@ -24,7 +25,7 @@
 	<body>
 
       <!--Main Navigation-->
-      <header>
+      <header id="main">
 
          <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
             <div class="container">
@@ -57,11 +58,11 @@
             </div>
          </nav>
 
-         <div class="view bg1">
+         <div id="img-div" class="view bg1">
             <div class="full-bg-img">
                <div class="mask rgba-white-light flex-center">
                   <div class="container text-left black-text wow fadeIn" data-wow-delay="0.6s">
-                     <h1 class="title">Audrey Hepburn</h1>
+                     <h1 id="title">Audrey Hepburn</h1>
                      <br>
                      <h3 class="lifespan">May 1929 - January 1993</h3>
                      <br>
@@ -101,8 +102,8 @@
                   <p class="paratext">
                      Hepburn's mother, Ella van Heemstra (1900–1984), was a Dutch baroness. At age nineteen, Ella had married Jonkheer Hendrik Gustaaf Adolf Quarles van Ufford, an oil executive based in Batavia, Dutch East Indies, where they subsequently lived. They had two sons, Jonkheer Arnoud Robert Alexander Quarles van Ufford (1920–1979) and Jonkheer Ian Edgar Bruce Quarles van Ufford (1924–2010), before divorcing in 1925.
                   </p>
-                  <p class="paratext">
-                     Hepburn's parents were married in Batavia in September 1926. At the time, Ruston worked for a trading company, but soon after the marriage, the couple relocated to Europe, where he began working for a loan company. After a year in London, they moved to Brussels, where he had been assigned to open a branch office. After three years spent travelling between Brussels, Arnhem, The Hague and London, the family settled in the suburban Brussels municipality of Linkebeek in 1932. Hepburn's early childhood was sheltered and privileged. As a result of her multinational background and travelling with her family due to her father's job, she learned to speak five languages: Dutch and English from her parents, and later French, Spanish, and Italian. <a target="_blank" href="https://en.wikipedia.org/wiki/Audrey_Hepburn#Family_and_early_childhood_.281929.E2.80.931938.29">Read More</a>
+                  <p id="tribute-info" class="paratext">
+                     Hepburn's parents were married in Batavia in September 1926. At the time, Ruston worked for a trading company, but soon after the marriage, the couple relocated to Europe, where he began working for a loan company. After a year in London, they moved to Brussels, where he had been assigned to open a branch office. After three years spent travelling between Brussels, Arnhem, The Hague and London, the family settled in the suburban Brussels municipality of Linkebeek in 1932. Hepburn's early childhood was sheltered and privileged. As a result of her multinational background and travelling with her family due to her father's job, she learned to speak five languages: Dutch and English from her parents, and later French, Spanish, and Italian. <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Audrey_Hepburn#Family_and_early_childhood_.281929.E2.80.931938.29">Read More</a>
                   </p>
                </div>
             </div>
@@ -352,6 +353,17 @@
                </li>
              
             </ul>
+
+            <div class="container flex-center">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div id="img-div">
+                        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Audrey_Hepburn_signature.svg/585px-Audrey_Hepburn_signature.svg.png" style="width: 100%;">
+                     </div>
+                     <p id="img-caption">Audrey Hepburn's signature</p>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <a name="philanthropy"></a>
